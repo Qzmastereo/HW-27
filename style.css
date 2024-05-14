@@ -1,0 +1,52 @@
+
+.nav-menu {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+.link-menu {
+    padding: 8px 8px 8px 52px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+    display: flex;
+    opacity: 0;
+}
+
+.link-menu:hover {
+    color: yellow;
+}
+
+.nav-menu:hover {
+    width: 250px;
+}
+
+.nav-menu:hover a {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: #818181;
+    padding: 10px 15px;
+    border: none;
+    writing-mode: vertical-rl;
+    margin-top: 50px;
+    transition: opacity 0.5s;
+    margin-left: 15px;
+}
+
+.nav-menu:hover > .btn {
+    opacity: 0;
+}
+
